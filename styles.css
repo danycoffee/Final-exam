@@ -1,0 +1,28 @@
+p {
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    color: skyblue;
+}
+
+.highlight {
+    background-color: lavender;
+    color: skyblue;
+    font-weight: bold;
+}
+
+#contact-section {
+    padding: 15px;                  /*inside border*/
+    border: 3px solid pink;       /*line between padding and margin*/
+    margin: 20px;                   /*outside border*/
+}
+
+.hide-completely {
+    display: none;              /*removed the layout*/
+}
+
+.hide-but-keep-space {
+    visibility: hidden;         /*hidden but still takes up space*/
+}
